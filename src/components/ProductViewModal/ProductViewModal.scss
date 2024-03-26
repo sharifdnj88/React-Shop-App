@@ -1,0 +1,40 @@
+.product-quick-view{
+    display: flex;
+    gap: 10px;
+
+    .product-photo{
+        width: 200px;
+
+        img{
+            width: 200px;
+        }
+    }
+
+    .product-details{
+        .view-pricing{
+            display: flex;
+            gap: 10px;
+            font-size: 20px;
+            font-weight: 200;
+            color: orangered;
+
+            .regular_price{
+                text-decoration: line-through;
+            }
+
+            .sale_price{
+                font-weight: 500;
+                color: #000;
+            }
+            
+        }
+
+        .view-btn{
+            Button{
+                border-radius: 0px;
+                background-color: orangered;
+                border-color: orangered;
+            }
+        }
+    }
+}

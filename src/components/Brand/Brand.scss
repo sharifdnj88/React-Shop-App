@@ -1,0 +1,24 @@
+.brand-form{
+
+    input{
+        
+        &:focus{
+            box-shadow: none;
+            border: 1px solid #CCC;
+        }
+    }
+
+.add-brand-btn{
+    background-color: orangered;
+    border-color: orangered;
+    border-radius: 0px;
+    opacity: 0.8;
+
+    &:hover{
+        background-color: orangered;
+        border-color: orangered;
+        border-radius: 0px;
+        opacity: 1;
+    }
+}
+}

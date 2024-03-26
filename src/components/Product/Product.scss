@@ -1,0 +1,41 @@
+.product-item{
+    width: 23%;
+    margin-bottom: 20px;
+
+    .product-item-img{
+        width: 130px;
+    }
+
+    .pricing{
+        display: block;
+        text-align: center;
+        gap: 10px;
+        font-size: 17px;
+
+        .regular{
+            text-decoration: line-through;
+            color: orangered;
+            font-weight: 300;
+        }
+
+        .sale{
+            font-weight: 500;
+        }
+    }
+
+    .product-button{
+        display: flex;
+        margin-top: 10px;
+        text-align: center;
+
+        Button{
+            border-radius: 0px;
+            font-size: 12px;
+        }
+
+        .add-cart-btn{
+            background-color: orangered;
+            border-color: orangered;
+        }
+    }
+}
